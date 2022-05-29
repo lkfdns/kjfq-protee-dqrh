@@ -48,7 +48,7 @@ try {
     .setColor(color)
     .setDescription(!own ? "None":own .map((user, i) => `<@${user}>`).slice(0, 30).join("\n")
     )
-        .setFooter(`${page}/${Math.ceil(ownc||1/ 30)} • 18TH Protect`)
+        .setFooter(`${page}/${Math.ceil(ownc||1/ 30)} • LM Protect`)
       message.channel.send(embed).then(async tdata => {
 
     if (ownc> 30) {
@@ -85,7 +85,7 @@ try {
                 .slice(0, 30)
     )
 
-        .setFooter(`${page}/${Math.ceil(ownc/ 30)} • 18TH Protect`)
+        .setFooter(`${page}/${Math.ceil(ownc/ 30)} • LM Protect`)
             tdata.edit(embed);
 
         }
@@ -111,7 +111,7 @@ try {
 
                 .slice(0, 30)
     )
-                .setFooter(`${page}/${Math.ceil(ownc/ 30)} • 18TH Protect`)
+                .setFooter(`${page}/${Math.ceil(ownc/ 30)} • LM Protect`)
                 tdata.edit(embed);
 
         }
