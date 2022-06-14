@@ -38,7 +38,7 @@ if(prefix === null) prefix = process.env.prefix;
                       .slice(p0, p1)
                        
                       )
-                                  .setFooter(`${page}/${Math.ceil(bList.length / 30) || 1} • 18TH Protect`)  
+                                  .setFooter(`${page}/${Math.ceil(bList.length / 30) || 1} • CNC Protect`)  
       
                   .setColor(color)
                                
@@ -83,7 +83,7 @@ if(prefix === null) prefix = process.env.prefix;
                       .slice(p0, p1)
                        
                       )
-                                  .setFooter(`${page}/${Math.ceil(bList.length / 30)} • 18TH Protect`)  
+                                  .setFooter(`${page}/${Math.ceil(bList.length / 30)} • CNC Protect`)  
       
                           
                          
@@ -113,7 +113,7 @@ if(prefix === null) prefix = process.env.prefix;
                       .slice(p0, p1)
                        
                       )
-                                  .setFooter(`${page}/${Math.ceil(bList.length / 30)} • 18TH Protect`)  
+                                  .setFooter(`${page}/${Math.ceil(bList.length / 30)} • CNC Protect`)  
       
                           
                          
